@@ -21,7 +21,7 @@ import (
 
 func main() {
 	// Create a new slice with a len/cap 3
-	var intArray = make([]int64, 3)
+	var intArray = make([]int64, 0, 3)
 
 	scanner := bufio.NewScanner(os.Stdin)
 
